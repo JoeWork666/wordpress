@@ -20,5 +20,4 @@ spec:
   #   protocol: TCP
   #   targetPort: 443
   selector:
-    app: wordpress
-    test: testwordpress #吃到wp-dp-pod
+    app: wordpress #吃到wp-dp-pod
