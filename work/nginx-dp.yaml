@@ -4,7 +4,7 @@ metadata:
   name: mynginx
   namespace: joe
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       service: nginx
